@@ -63,7 +63,7 @@ export default function Cadastro(){
                 <div className="botoesCadastro">
                     <div className="check-box-termos">
                         <input type="checkbox" checked={marcado} onChange={(e) => setMarcado(e.target.checked)} />
-                        <label>Li e aceito os <a target="_blank" href="https://drmconnect.vercel.app/termos">Termos De Uso</a></label>
+                        <label>Li e aceito os <a target="_blank" rel="noopener noreferrer" href="https://drmconnect.vercel.app/termos">Termos De Uso</a></label>
                     </div>
                     <button className="cadastroBTT" disabled={!marcado} onClick={() => cadastrar()}>Cadastrar</button>
                     <div className="loginLink">

@@ -13,8 +13,8 @@ export default function Footer() {
                 <h3>DRM Connect</h3>
 
                 <div className="social">
-                    <a href="https://www.instagram.com/2anodesenv.sistemas/" target="_blank"><img src={instagram} alt="Instagram" /></a>
-                    <a href="https://www.tiktok.com/@segundo.ds2025" target="_blank"><img src={tiktok} alt="TikTok" /></a>
+                    <a href="https://www.instagram.com/2anodesenv.sistemas/" target="_blank" rel="noopener noreferrer"><img src={instagram} alt="Instagram" /></a>
+                    <a href="https://www.tiktok.com/@segundo.ds2025" target="_blank" rel="noopener noreferrer"><img src={tiktok} alt="TikTok" /></a>
                 </div>
             </div>
 
@@ -34,8 +34,8 @@ export default function Footer() {
             <div className="patriocinadores">
                 <h3>Patriocinadores</h3>
                 <div className="patriocinadoresIcon">
-                    <a  href="https://comunidade.animeprofile.com.br/" target="_blank"><img src={animeProfile} alt="anime Profile" /></a>
-                    <a href="https://www.instagram.com/eeepdeputadorobertomesquita/" target="_blank"><img src={logoEp} alt="logoEp DRM" /></a>
+                    <a  href="https://comunidade.animeprofile.com.br/" target="_blank" rel="noopener noreferrer"><img src={animeProfile} alt="anime Profile" /></a>
+                    <a href="https://www.instagram.com/eeepdeputadorobertomesquita/" target="_blank" rel="noopener noreferrer"><img src={logoEp} alt="logoEp DRM" /></a>
                 </div>
             </div>
         </footer>
